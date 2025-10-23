@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "name": "POST - Create product",
+      "status": "PASS",
+      "code": 201
+    },
+    {
+      "name": "GET - Get product by ID",
+      "status": "PASS",
+      "code": 200
+    },
+    {
+      "name": "PUT - Update product (all fields)",
+      "status": "PASS",
+      "code": 200
+    },
+    {
+      "name": "DELETE - Delete product",
+      "status": "PASS",
+      "code": 200
+    },
+    {
+      "name": "GET - Confirm deletion (by ID)",
+      "status": "PASS",
+      "code": 404
+    }
+  ]
+}
